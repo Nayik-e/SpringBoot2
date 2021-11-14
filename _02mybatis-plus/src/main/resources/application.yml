@@ -1,0 +1,14 @@
+#?????,??druid
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/db_mybatis?serverTimezone=UTC
+      password: root
+      username: root
+
+#??mp????
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: t_

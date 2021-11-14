@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_03ssmp" />
+        <module name="_01demo" />
+        <module name="_02mybatis-plus" />
+        <module name="_02mybatis" />
+        <module name="_03ssmp_dim1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_01demo" target="1.8" />
+      <module name="_02mybatis" target="1.8" />
+      <module name="_02mybatis-plus" target="1.8" />
+      <module name="_03_ssmp_dim1" target="1.8" />
+      <module name="_03ssmp" target="1.8" />
+      <module name="_03ssmp_dim1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="_01demo" options="-parameters" />
+      <module name="_02mybatis" options="-parameters" />
+      <module name="_02mybatis-plus" options="-parameters" />
+      <module name="_03_ssmp_dim1" options="-parameters" />
+      <module name="_03ssmp" options="-parameters" />
+      <module name="_03ssmp_dim1" options="-parameters" />
+    </option>
+  </component>
+</project>
